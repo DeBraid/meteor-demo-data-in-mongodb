@@ -1,0 +1,15 @@
+<head>
+  <title>tweetsapp</title>
+</head>
+
+<body>
+  <h1>Tweet app </h1>
+
+  {{> dataTable }}
+</body>
+
+<template name="dataTable">
+  <h1>Data</h1>
+  <!-- {{ rant }} -->
+  {{> reactiveTable collection=schools}}
+</template>
